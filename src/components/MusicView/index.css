@@ -1,0 +1,19 @@
+.MusicView {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  margin: 0 auto;
+  color: #fff;
+  margin-left: 120px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#canvas {
+  display: block;
+  /* background: linear-gradient(#34fdaa, #08b1ac); */
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

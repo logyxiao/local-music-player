@@ -1,0 +1,45 @@
+.gradient-background {
+  /* position: relative;
+  width: 100%;
+  height: 100vh; */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/texture.png");
+  transition: background-color 6s ease-in;
+  background-color: #ddd;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color 3s ease-in-out;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 3s;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.gradient-background h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  color: #fff;
+}
